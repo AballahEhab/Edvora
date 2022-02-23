@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+
+    <style name="actionBarTextStyle" parent="Widget.MaterialComponents.TabLayout.Colored">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="lineHeight">19sp</item>
+        <item name="flow_verticalAlign">top</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+    <style name="textSmallTitle" parent="" >
+
+
+    </style>
+
+    <style name="AppTheme.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorFullWidth">false</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">27dp</item>
+        <item name="android:background">#00FFFFFF</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="tabContentStart">0dp</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+        <item name="tabTextAppearance">@style/tabItemTextApperance</item>
+
+
+    </style>
+
+    <style name="tabItemTextApperance" parent="">
+        <item name="android:textColor">@color/white</item>
+        <item name="flow_verticalAlign">top</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+
+
+
+<!--    styles for card item -->
+    <style name="rideCardItemImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="rideDataTextItem" parent="">
+        font-family: Inter;
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">22px</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#CFCFCF</item>
+
+    </style>
+
+
+
+
+</resources>

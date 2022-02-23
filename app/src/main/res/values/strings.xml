@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Edvora</string>
+    <string name="ride_id_label">Ride Id : %1$o</string>
+    <string name="orginStationLabel">Orgin Station : %1$o</string>
+    <string name="stationPathLabel">station_path : %1$s</string>
+    <string name="dateLabel">Date : %1$s</string>
+    <string name="distanceLabel">Distance : %1$o</string>
+</resources>
